@@ -1,4 +1,12 @@
 .lottie-container {
-  max-height: 300px;
+  max-height: 250px;
   overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.video-container {
+  max-height: 200px;
+  min-height: 200px;
+  height: 200px;
 }
