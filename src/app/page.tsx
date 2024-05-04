@@ -99,16 +99,16 @@ export default function Home() {
       </div>
       <div
         className="mb-6 flex items-center justify-between w-full relative"
-        style={{ height: 250 }}
+        // style={{ height: 250 }}
       >
-        <div ref={lottieRef} className="lottie-container"></div>
+        {/* <div ref={lottieRef} className="lottie-container"></div> */}
         <Image
           src="/boy-left.png"
           alt="Boy"
           width={100}
           height={100}
           priority
-          style={{ transform: `translateX(${offset}px)` }}
+          style={{ transform: `translateX(${offset}px)`, transition: "all" }}
         />
         <Image
           src="/girl-right.png"
@@ -116,7 +116,7 @@ export default function Home() {
           width={100}
           height={100}
           priority
-          style={{ transform: `translateX(-${offset}px)` }}
+          style={{ transform: `translateX(-${offset}px)`, transition: "all" }}
         />
       </div>
       <div className="video-container">
